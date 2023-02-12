@@ -1,0 +1,25 @@
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.badge {
+    color: #000;
+
+    &:hover {
+        background: $primary;
+        color: #fff;
+    }
+}
+
+.delete-color{
+    color: red;
+
+    &:hover{
+        color: red;
+    }
+
+    &:active{
+        color: #fff;
+    }
+}
